@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ftgkaraoke" name="[COLOR orange] FTG[/COLOR] Karaoke" version="1.0.2" provider-name="Mikey1234-FTG">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="plugin.video.youtube" version="0.0.1"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Search and Play Karaoke Videos</summary>
+    <description lang="en">This is a revised version of Mikey's Karaoke ......Search and Play Karaoke Songs from Youtube.....All the original creditgoes to Mikey1234 as we would not have this addon if it wasnt for him!! I only take credit for the modifications I've done to get it working again also features afont color changer aswell. All the content streamed within comes from YouTube. This is a third party addon that has no affliation with Kodi nor YouTube. </description>
+    <platform>all</platform>
+  </extension>
+</addon>

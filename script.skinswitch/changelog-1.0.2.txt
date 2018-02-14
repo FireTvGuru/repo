@@ -1,0 +1,5 @@
+v1.0.2
+Added All stock Kodi Skins
+
+v1.0.1
+First Release

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.program.romgetter" name="Rom Downloader" version="0.0.1" provider-name="FTG">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    
+    <extension point="xbmc.python.pluginsource" library="retro.py">
+        <provides>executable</provides>
+    </extension>
+    
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>Rom Downloader</summary>
+        <description>I do not host any files that can be obtained from within!!</description>
+        <disclaimer></disclaimer>
+    </extension>
+</addon>
