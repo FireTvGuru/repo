@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon id="plugin.program.ftgmaint" 
 	     name="[COLOR blue][B]--[COLOR yellow]FTG Maintenance[COLOR blue]--[/COLOR][/B]" 
-	     version="1.1.0" 
+	     version="1.2.0" 
 	     provider-name="FTG">
   <requires>
   	<import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.pyxbmct" version="1.1.4" />
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>executable</provides>
@@ -14,7 +15,7 @@
   <extension point="xbmc.addon.metadata">
     <platform>all</platform>
     <summary lang="en">[COLOR red]LAST MAINTENANCE TOOL Y'All WILL EVER NEED!!![/COLOR]</summary>
-    <description lang="en"> Does all the Maint needed for a smooth kodi with out all the fluff. Features Auto Cache delete at every start up, notifies you when package and thumbs get full (Sizes are changable) cuts down on your devices read/writes on the ROM. Also has tons of Backup/Restore Options and a Speed test, plus other great features!! THX goes to surfacingx and TDB for the code used </description>
+    <description lang="en"> Does all the Maint needed for a smooth kodi with out all the fluff. Notifies you when package and thumbs get full (Sizes are changable) cuts down on your devices read/writes on the ROM. Also has tons of Backup/Restore Options and a Speed test, plus other great features!! THX goes to surfacingx and NaN for the code used </description>
     <disclaimer lang="en"></disclaimer>
     <language></language>
     <platform>all</platform>
