@@ -1,0 +1,4 @@
+1.0.3==Fixed Fresh Start and icon/fanart images
+1.0.2==Fix Some Noob mistakes!!
+1.0.1==Tons of features added  
+1.0.0== Basic maint features
