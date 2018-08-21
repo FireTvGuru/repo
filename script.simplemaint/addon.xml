@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.simplemaint"
+       name="[COLOR yellow]-[COLOR blue][B]FTG Simple Maint[/B][COLOR yellow]-[/COLOR]"
+       version="1.0.0"
+       provider-name="FTG">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="ftg.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="auto.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">FTG Simple Maintenance</summary>
+    <description lang="en">This is a very light auto or manual cleaner. You can set size limits, have it perform on a schedule or everytime Kodi starts. Brought to you by Fire TV Guru</description>
+    <platform>all</platform>
+  </extension>
+</addon>
