@@ -27,44 +27,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.romgetter" name="Rom Downloader" version="0.0.1" provider-name="FTG">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="retro.py">
-        <provides>executable</provides>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Rom Downloader</summary>
-        <description>I do not host any files that can be obtained from within!!</description>
-        <disclaimer></disclaimer>
-    </extension>
-</addon>
-
-<addon id="plugin.video.firefitness"
-	name="Fire Fitness"
-	version="0.0.2"
-	provider-name="Fire TV Guru">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0"/>
-    <import addon="plugin.video.youtube" version="5.0.0"/>
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">Fire Fitness</summary>
-    <description lang="en">Fitness and Workout content.  All the content provided is copyrighted to the repectfull owners on YouTube.</description>
-    <platform>all</platform>
-    <forum>n/a</forum>
-    <website>n/a</website>
-  </extension>
-</addon>
-
 <addon id="plugin.video.ftgkaraoke" name="[COLOR orange] FTG[/COLOR] Karaoke" version="1.0.2" provider-name="Mikey1234-FTG">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -78,32 +40,6 @@
     <description lang="en">This is a revised version of Mikey's Karaoke ......Search and Play Karaoke Songs from Youtube.....All the original creditgoes to Mikey1234 as we would not have this addon if it wasnt for him!! I only take credit for the modifications I've done to get it working again also features afont color changer aswell. All the content streamed within comes from YouTube. This is a third party addon that has no affliation with Kodi nor YouTube. </description>
     <platform>all</platform>
   </extension>
-</addon>
-
-<addon id="plugin.video.ftgrel" name=" [COLOR orange]FTG[/COLOR] Religion" version="0.0.1" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" version="5.2.1" optional="true" />
-		<import addon="script.module.pyxbmct" version="1.1.4" />
-		<import addon="script.module.urlresolver" version="3.0.0"/>
-		<import addon="script.module.liveresolver" version="0.1.24"/>
-		<import addon="script.video.F4mProxy" version="2.2.3"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Religion</summary>
-		<description lang="en">Basic Religious Addon - First Release</description>
-		<platform>all</platform>
-		<forum></forum>
-		<website></website>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-		</assets>
-		<news>==</news>
-	</extension>
 </addon>
 
 <addon id="repository.firetvguru" name="Fire TV Guru Repo" version="0.0.6" provider-name="Fire TV Guru Repo">
@@ -135,67 +71,6 @@
     <platform>all</platform>
     <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
   </extension>
-</addon>
-
-<addon id="script.module.addon.common"
-	     name="Common addon methods"
-	     version="2.0.0"
-	     provider-name="Eldorado (original: t0mm0)">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Collection of commonly used addon routines</summary>
-    <description lang="en">Collection of commonly used addon routines to simplify addon development.</description>
-    <disclaimer lang="en"></disclaimer>
-    <language></language>
-    <platform>all</platform>
-    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-    <forum></forum>
-    <website></website>
-    <email></email>
-    <source></source>
-  </extension>
-</addon>
-
-<addon id="script.module.liveresolver"
-     name="LiveResolver"
-     version="0.1.49"
-     provider-name="natko1412">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0" />
-    <import addon="script.module.beautifulsoup" version="3.2.1"/>
-    <import addon="script.module.requests"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-
-  </requires>
-  <extension point="xbmc.python.module" library="lib" />
-  <extension point="xbmc.addon.metadata">
-    <platform>all</platform>
-    <summary lang="en">Resolve common live video host URL's to be playable in XBMC/Kodi + find links embeded in sites.</summary>
-    <description lang="en"></description>
-  </extension>
-</addon>
-
-<addon id="script.module.urlresolver" name="URLResolver" version="4.0.09" provider-name="Eldorado, tknorris, jsergio">
-	<requires>
-		<import addon="xbmc.python" version="2.1.0" />
-		<import addon="plugin.video.youtube" optional="true" />
-		<import addon="script.module.python.twitch" optional="true" />
-		<import addon="script.module.cryptopy" version="1.2.6" optional="true" />
-	</requires>
-	<extension point="xbmc.python.module" library="lib" />
-	<extension point="xbmc.python.pluginsource" library="lib/default.py" />
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Resolve common video host URL's to be playable in XBMC/Kodi.</summary>
-		<summary lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju.</summary>
-		<description lang="en">Resolve common video host URL's to be playable in XBMC/Kodi, simplify addon development of video plugins requiring multi video hosts.</description>
-		<description lang="hr">Prilagodi najčešće URL-ove video izvora kako bi radili u XBMC/Kodiju, pojednostavnjuje razvoj priključaka za video dodatke koji zahtjevaju višestruke video izvore.</description>
-        <source>https://github.com/jsergio123/script.module.urlresolver</source>
-	</extension>
 </addon>
 
 <addon id="script.skinswitch" name=" [COLOR orange]FTG[/COLOR] Skin Swap" version="1.0.2" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
