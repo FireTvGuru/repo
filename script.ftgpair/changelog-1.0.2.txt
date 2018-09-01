@@ -1,0 +1,3 @@
+Ver 1.0.2 added RD, AD and PyXBMCt layout
+Ver 1.0.1 added Flash X
+Ver 1.0.0 Release
