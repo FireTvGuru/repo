@@ -55,7 +55,7 @@
 	</extension>
 </addon>
 
-<addon id="script.ftgpair" name=" [COLOR orange]FTG[/COLOR] Pair" version="1.0.2" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
+<addon id="script.ftgpair" name=" [COLOR orange]FTG[/COLOR] Pair" version="1.0.3" provider-name="[COLOR red]F[COLOR white]T[COLOR blue]G[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
   </requires>
