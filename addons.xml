@@ -90,6 +90,24 @@
   </extension>
 </addon>
 
+<addon id="script.FTGspeedtest"
+       name="Speed Tester"
+       version="1.0.0"
+       provider-name="FTG">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.script"
+             library="default.py">
+        <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Speed Tester</summary>
+    <description lang="en">Speed Tester powered by speedtest.net</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="script.simplemaint"
        name="[COLOR yellow]-[COLOR blue][B]FTG Simple Maint[/B][COLOR yellow]-[/COLOR]"
        version="1.0.0"

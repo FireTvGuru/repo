@@ -1,0 +1,7 @@
+Ver 1.0.0 Release - obfucate
+
+Ver 0.0.3 - updated cli script to 3.5
+
+Ver 0.0.2 - Updated pics to current and fixed time issue
+
+Ver 1.0.1 - rewrote the entire Arnu Speed test 
