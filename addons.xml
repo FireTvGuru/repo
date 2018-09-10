@@ -27,23 +27,6 @@
   </extension>
 </addon>
 
-<addon id="plugin.program.romgetter" name="Rom Downloader" version="0.0.2" provider-name="FTG">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-    </requires>
-
-    <extension point="xbmc.python.pluginsource" library="retro.py">
-        <provides>executable</provides>
-    </extension>
-
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary>Rom Downloader</summary>
-        <description>I do not host any files that can be obtained from within!!</description>
-        <disclaimer></disclaimer>
-    </extension>
-</addon>
-
 <addon id="plugin.video.ftgkaraoke" name="[COLOR orange] FTG[/COLOR] Karaoke" version="1.0.2" provider-name="Mikey1234-FTG">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
